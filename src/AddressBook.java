@@ -20,4 +20,8 @@ public class AddressBook {
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
     }
+
+    public int getBuddyCount() {
+        return buddies.size();
+    }
 }
